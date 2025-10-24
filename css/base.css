@@ -1,0 +1,38 @@
+/* Layout & brand */
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  background-color: #fffaf0;
+  color: #3b2b1a;
+  margin: 0;
+}
+header {
+  background: #c4611a;
+  color: #fff;
+  padding: 1.1rem 2rem;
+}
+header h1 { margin: 0; font-size: 1.8rem; }
+main { padding: 2rem; }
+footer {
+  background: #4a2d15; color: #fffae0;
+  text-align: center; padding: 1rem; margin-top: 2rem;
+}
+
+/* Headings / text */
+h1 { color: #3b2b1a; margin: 0 0 .6rem 0; }
+p  { color: #5c4c3a; margin: 0 0 1rem 0; }
+
+/* Filters */
+#filters_screen { margin: .5rem 0 .5rem; }
+#filters_size   { margin: .25rem 0 1.25rem; }
+
+button.filter {
+  background: #d26c21; color: #fff; border: 0;
+  border-radius: 10px; font-weight: 700;
+  padding: .5rem 1.1rem; margin: 0 .5rem .5rem 0;
+  cursor: pointer; transition: background .2s, transform .15s;
+}
+button.filter:hover { background: #e07c2d; transform: translateY(-2px); }
+button.filter.is-active { background: #ffcc80; color: #3b2b1a; }
+
+/* Axis label text */
+.axis-label { font-size: .95rem; font-weight: 700; fill: #3b2b1a; }
